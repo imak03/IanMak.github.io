@@ -175,10 +175,11 @@ img {
     margin-top: 10px;
 }
 
-/* .card-img-top {
-    width: 200px;
+.main-skills .card-img-top {
+    width: 175px;
     height: auto;
-} */
+    margin: 10px 10px;
+}
 
 .main-skills .card-title {
     text-align: center;
@@ -190,5 +191,44 @@ img {
     margin-left: auto;
     margin-right: auto;
     margin-top: 1em;
+}
+
+.other-skills {
+    background: #f2f3f4;
+    justify-content: center;
+    padding-top: 60px;
+    padding-bottom: 60px;
+}
+
+.other-skills h3 {
+    color: #313639;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 0.5em;
+    padding-bottom: 40px;
+    text-align: center;
+}
+
+.other-skills .row {
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 40px;
+    margin-top: 10px;
+}
+
+.other-skills .card{
+    background: #f2f3f4;
+    border: none;
+    max-width: 100px;
+}
+
+.other-skills .card-title {
+    text-align: center;
+    color: #313639;
+}
+
+.other-skills .card-body {
+    padding:0;
+    padding-top: 10px;
 }
 
